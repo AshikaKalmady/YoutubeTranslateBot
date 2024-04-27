@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22C58992BDAFEBE002F8246 /* YTChatHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C58982BDAFEBE002F8246 /* YTChatHelperApp.swift */; };
+		F22C589B2BDAFEBE002F8246 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C589A2BDAFEBE002F8246 /* ContentView.swift */; };
+		F22C589D2BDAFEC1002F8246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22C589C2BDAFEC1002F8246 /* Assets.xcassets */; };
+		F22C58A02BDAFEC1002F8246 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22C589F2BDAFEC1002F8246 /* Preview Assets.xcassets */; };
+		F22C58AA2BDAFEC1002F8246 /* YTChatHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C58A92BDAFEC1002F8246 /* YTChatHelperTests.swift */; };
+		F22C58B42BDAFEC1002F8246 /* YTChatHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C58B32BDAFEC1002F8246 /* YTChatHelperUITests.swift */; };
+		F22C58B62BDAFEC1002F8246 /* YTChatHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C58B52BDAFEC1002F8246 /* YTChatHelperUITestsLaunchTests.swift */; };
+		F22C58C42BDAFF14002F8246 /* YTAudioBufferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C58C32BDAFF14002F8246 /* YTAudioBufferService.swift */; };
+		F22C58C62BDB0CDC002F8246 /* YTAssemblyTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C58C52BDB0CDC002F8246 /* YTAssemblyTranslation.swift */; };
+		F22C58C92BDB347A002F8246 /* YTChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C58C82BDB347A002F8246 /* YTChatMessageView.swift */; };
+		F22C58CB2BDB34A8002F8246 /* ChatTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C58CA2BDB34A8002F8246 /* ChatTextField.swift */; };
+		F22C58CD2BDB36E1002F8246 /* ChatSendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C58CC2BDB36E1002F8246 /* ChatSendButton.swift */; };
+		F248A3DB2BDCC51C00431224 /* YTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248A3DA2BDCC51C00431224 /* YTViewModel.swift */; };
+		F248A3DF2BDCC5A700431224 /* YTBuffer.py in Resources */ = {isa = PBXBuildFile; fileRef = F248A3DE2BDCC5A700431224 /* YTBuffer.py */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F22C58A62BDAFEC1002F8246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22C588D2BDAFEBE002F8246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22C58942BDAFEBE002F8246;
+			remoteInfo = YTChatHelper;
+		};
+		F22C58B02BDAFEC1002F8246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22C588D2BDAFEBE002F8246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22C58942BDAFEBE002F8246;
+			remoteInfo = YTChatHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F22C58952BDAFEBE002F8246 /* YTChatHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTChatHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22C58982BDAFEBE002F8246 /* YTChatHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTChatHelperApp.swift; sourceTree = "<group>"; };
+		F22C589A2BDAFEBE002F8246 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F22C589C2BDAFEC1002F8246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22C589F2BDAFEC1002F8246 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F22C58A52BDAFEC1002F8246 /* YTChatHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTChatHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22C58A92BDAFEC1002F8246 /* YTChatHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTChatHelperTests.swift; sourceTree = "<group>"; };
+		F22C58AF2BDAFEC1002F8246 /* YTChatHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTChatHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22C58B32BDAFEC1002F8246 /* YTChatHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTChatHelperUITests.swift; sourceTree = "<group>"; };
+		F22C58B52BDAFEC1002F8246 /* YTChatHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTChatHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F22C58C32BDAFF14002F8246 /* YTAudioBufferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTAudioBufferService.swift; sourceTree = "<group>"; };
+		F22C58C52BDB0CDC002F8246 /* YTAssemblyTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTAssemblyTranslation.swift; sourceTree = "<group>"; };
+		F22C58C82BDB347A002F8246 /* YTChatMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTChatMessageView.swift; sourceTree = "<group>"; };
+		F22C58CA2BDB34A8002F8246 /* ChatTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTextField.swift; sourceTree = "<group>"; };
+		F22C58CC2BDB36E1002F8246 /* ChatSendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSendButton.swift; sourceTree = "<group>"; };
+		F248A3DA2BDCC51C00431224 /* YTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTViewModel.swift; sourceTree = "<group>"; };
+		F248A3DE2BDCC5A700431224 /* YTBuffer.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = YTBuffer.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22C58922BDAFEBE002F8246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22C58A22BDAFEC1002F8246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22C58AC2BDAFEC1002F8246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22C588C2BDAFEBE002F8246 = {
+			isa = PBXGroup;
+			children = (
+				F248A3DD2BDCC56900431224 /* PythonServiceBackend */,
+				F22C58972BDAFEBE002F8246 /* YTChatHelper */,
+				F22C58A82BDAFEC1002F8246 /* YTChatHelperTests */,
+				F22C58B22BDAFEC1002F8246 /* YTChatHelperUITests */,
+				F22C58962BDAFEBE002F8246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F22C58962BDAFEBE002F8246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22C58952BDAFEBE002F8246 /* YTChatHelper.app */,
+				F22C58A52BDAFEC1002F8246 /* YTChatHelperTests.xctest */,
+				F22C58AF2BDAFEC1002F8246 /* YTChatHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F22C58972BDAFEBE002F8246 /* YTChatHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F248A3DC2BDCC53100431224 /* YTViewModel */,
+				F22C58C72BDB3460002F8246 /* YTChatHelperView */,
+				F22C58C22BDAFEF4002F8246 /* ServiceHelper */,
+				F22C589A2BDAFEBE002F8246 /* ContentView.swift */,
+				F22C58982BDAFEBE002F8246 /* YTChatHelperApp.swift */,
+				F22C589C2BDAFEC1002F8246 /* Assets.xcassets */,
+				F22C589E2BDAFEC1002F8246 /* Preview Content */,
+			);
+			path = YTChatHelper;
+			sourceTree = "<group>";
+		};
+		F22C589E2BDAFEC1002F8246 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F22C589F2BDAFEC1002F8246 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F22C58A82BDAFEC1002F8246 /* YTChatHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				F22C58A92BDAFEC1002F8246 /* YTChatHelperTests.swift */,
+			);
+			path = YTChatHelperTests;
+			sourceTree = "<group>";
+		};
+		F22C58B22BDAFEC1002F8246 /* YTChatHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F22C58B32BDAFEC1002F8246 /* YTChatHelperUITests.swift */,
+				F22C58B52BDAFEC1002F8246 /* YTChatHelperUITestsLaunchTests.swift */,
+			);
+			path = YTChatHelperUITests;
+			sourceTree = "<group>";
+		};
+		F22C58C22BDAFEF4002F8246 /* ServiceHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F22C58C32BDAFF14002F8246 /* YTAudioBufferService.swift */,
+				F22C58C52BDB0CDC002F8246 /* YTAssemblyTranslation.swift */,
+			);
+			path = ServiceHelper;
+			sourceTree = "<group>";
+		};
+		F22C58C72BDB3460002F8246 /* YTChatHelperView */ = {
+			isa = PBXGroup;
+			children = (
+				F22C58C82BDB347A002F8246 /* YTChatMessageView.swift */,
+				F22C58CA2BDB34A8002F8246 /* ChatTextField.swift */,
+				F22C58CC2BDB36E1002F8246 /* ChatSendButton.swift */,
+			);
+			path = YTChatHelperView;
+			sourceTree = "<group>";
+		};
+		F248A3DC2BDCC53100431224 /* YTViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F248A3DA2BDCC51C00431224 /* YTViewModel.swift */,
+			);
+			path = YTViewModel;
+			sourceTree = "<group>";
+		};
+		F248A3DD2BDCC56900431224 /* PythonServiceBackend */ = {
+			isa = PBXGroup;
+			children = (
+				F248A3DE2BDCC5A700431224 /* YTBuffer.py */,
+			);
+			path = PythonServiceBackend;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F22C58942BDAFEBE002F8246 /* YTChatHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22C58B92BDAFEC1002F8246 /* Build configuration list for PBXNativeTarget "YTChatHelper" */;
+			buildPhases = (
+				F22C58912BDAFEBE002F8246 /* Sources */,
+				F22C58922BDAFEBE002F8246 /* Frameworks */,
+				F22C58932BDAFEBE002F8246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTChatHelper;
+			productName = YTChatHelper;
+			productReference = F22C58952BDAFEBE002F8246 /* YTChatHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F22C58A42BDAFEC1002F8246 /* YTChatHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22C58BC2BDAFEC1002F8246 /* Build configuration list for PBXNativeTarget "YTChatHelperTests" */;
+			buildPhases = (
+				F22C58A12BDAFEC1002F8246 /* Sources */,
+				F22C58A22BDAFEC1002F8246 /* Frameworks */,
+				F22C58A32BDAFEC1002F8246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22C58A72BDAFEC1002F8246 /* PBXTargetDependency */,
+			);
+			name = YTChatHelperTests;
+			productName = YTChatHelperTests;
+			productReference = F22C58A52BDAFEC1002F8246 /* YTChatHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F22C58AE2BDAFEC1002F8246 /* YTChatHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22C58BF2BDAFEC1002F8246 /* Build configuration list for PBXNativeTarget "YTChatHelperUITests" */;
+			buildPhases = (
+				F22C58AB2BDAFEC1002F8246 /* Sources */,
+				F22C58AC2BDAFEC1002F8246 /* Frameworks */,
+				F22C58AD2BDAFEC1002F8246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22C58B12BDAFEC1002F8246 /* PBXTargetDependency */,
+			);
+			name = YTChatHelperUITests;
+			productName = YTChatHelperUITests;
+			productReference = F22C58AF2BDAFEC1002F8246 /* YTChatHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22C588D2BDAFEBE002F8246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F22C58942BDAFEBE002F8246 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F22C58A42BDAFEC1002F8246 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F22C58942BDAFEBE002F8246;
+					};
+					F22C58AE2BDAFEC1002F8246 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F22C58942BDAFEBE002F8246;
+					};
+				};
+			};
+			buildConfigurationList = F22C58902BDAFEBE002F8246 /* Build configuration list for PBXProject "YTChatHelper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F22C588C2BDAFEBE002F8246;
+			productRefGroup = F22C58962BDAFEBE002F8246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22C58942BDAFEBE002F8246 /* YTChatHelper */,
+				F22C58A42BDAFEC1002F8246 /* YTChatHelperTests */,
+				F22C58AE2BDAFEC1002F8246 /* YTChatHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22C58932BDAFEBE002F8246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F248A3DF2BDCC5A700431224 /* YTBuffer.py in Resources */,
+				F22C58A02BDAFEC1002F8246 /* Preview Assets.xcassets in Resources */,
+				F22C589D2BDAFEC1002F8246 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22C58A32BDAFEC1002F8246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22C58AD2BDAFEC1002F8246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22C58912BDAFEBE002F8246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22C58CD2BDB36E1002F8246 /* ChatSendButton.swift in Sources */,
+				F22C589B2BDAFEBE002F8246 /* ContentView.swift in Sources */,
+				F22C58C42BDAFF14002F8246 /* YTAudioBufferService.swift in Sources */,
+				F22C58C62BDB0CDC002F8246 /* YTAssemblyTranslation.swift in Sources */,
+				F22C58992BDAFEBE002F8246 /* YTChatHelperApp.swift in Sources */,
+				F248A3DB2BDCC51C00431224 /* YTViewModel.swift in Sources */,
+				F22C58C92BDB347A002F8246 /* YTChatMessageView.swift in Sources */,
+				F22C58CB2BDB34A8002F8246 /* ChatTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22C58A12BDAFEC1002F8246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22C58AA2BDAFEC1002F8246 /* YTChatHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22C58AB2BDAFEC1002F8246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22C58B42BDAFEC1002F8246 /* YTChatHelperUITests.swift in Sources */,
+				F22C58B62BDAFEC1002F8246 /* YTChatHelperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F22C58A72BDAFEC1002F8246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22C58942BDAFEBE002F8246 /* YTChatHelper */;
+			targetProxy = F22C58A62BDAFEC1002F8246 /* PBXContainerItemProxy */;
+		};
+		F22C58B12BDAFEC1002F8246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22C58942BDAFEBE002F8246 /* YTChatHelper */;
+			targetProxy = F22C58B02BDAFEC1002F8246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F22C58B72BDAFEC1002F8246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F22C58B82BDAFEC1002F8246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F22C58BA2BDAFEC1002F8246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YTChatHelper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosopenaichallenge.YTChatHelper.YTChatHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F22C58BB2BDAFEC1002F8246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YTChatHelper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosopenaichallenge.YTChatHelper.YTChatHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F22C58BD2BDAFEC1002F8246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosopenaichallenge.YTChatHelper.YTChatHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTChatHelper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YTChatHelper";
+			};
+			name = Debug;
+		};
+		F22C58BE2BDAFEC1002F8246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosopenaichallenge.YTChatHelper.YTChatHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTChatHelper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YTChatHelper";
+			};
+			name = Release;
+		};
+		F22C58C02BDAFEC1002F8246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosopenaichallenge.YTChatHelper.YTChatHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTChatHelper;
+			};
+			name = Debug;
+		};
+		F22C58C12BDAFEC1002F8246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosopenaichallenge.YTChatHelper.YTChatHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTChatHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22C58902BDAFEBE002F8246 /* Build configuration list for PBXProject "YTChatHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22C58B72BDAFEC1002F8246 /* Debug */,
+				F22C58B82BDAFEC1002F8246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22C58B92BDAFEC1002F8246 /* Build configuration list for PBXNativeTarget "YTChatHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22C58BA2BDAFEC1002F8246 /* Debug */,
+				F22C58BB2BDAFEC1002F8246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22C58BC2BDAFEC1002F8246 /* Build configuration list for PBXNativeTarget "YTChatHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22C58BD2BDAFEC1002F8246 /* Debug */,
+				F22C58BE2BDAFEC1002F8246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22C58BF2BDAFEC1002F8246 /* Build configuration list for PBXNativeTarget "YTChatHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22C58C02BDAFEC1002F8246 /* Debug */,
+				F22C58C12BDAFEC1002F8246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F22C588D2BDAFEBE002F8246 /* Project object */;
+}
