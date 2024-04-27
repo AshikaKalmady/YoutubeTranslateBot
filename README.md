@@ -23,12 +23,12 @@ The Video Summarization Chatbot is a tool designed to help users quickly underst
 
 ### Installation Instructions
 ```
-1. **Clone the Repository**
+1. Clone the Repository
 git clone https://github.com/yourusername/video-summary-chatbot.git
 cd video-summary-chatbot
-2. **Install Python Dependencies**
-3. **Start the Backend Server**
-4. **Launch the iOS Application**
+2. Install Python Dependencies
+3. Start the Backend Server
+4. Launch the iOS Application
 ```
 
 ### Usage
