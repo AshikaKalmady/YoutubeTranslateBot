@@ -22,13 +22,14 @@ The Video Summarization Chatbot is a tool designed to help users quickly underst
 - Access to YouTube API keys.
 
 ### Installation Instructions
-
+```
 1. **Clone the Repository**
-```git clone https://github.com/yourusername/video-summary-chatbot.git
-cd video-summary-chatbot```
+git clone https://github.com/yourusername/video-summary-chatbot.git
+cd video-summary-chatbot
 2. **Install Python Dependencies**
 3. **Start the Backend Server**
 4. **Launch the iOS Application**
+```
 
 ### Usage
 Simply input the URL of a YouTube video you are interested in, and the chatbot will process the video to provide a summary or answer specific questions about the video content.
